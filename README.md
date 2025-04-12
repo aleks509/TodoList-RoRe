@@ -4,15 +4,17 @@
 
 ---
 
----
-
 ## 📸 Скриншот интерфейса
 
 ![ToDo RoRe Screenshot](./screenshot.png)
 
 ---
 
+🔗 [Открыть демо](https://aleks509.github.io/TodoList-RoRe/)
+
 [![Демо](https://img.shields.io/badge/🔥_Live_Demo-000?style=for-the-badge&logo=github&logoColor=white)](https://aleks509.github.io/TodoList-RoRe/)
+
+---
 
 ## 🚀 Используемые технологии
 
