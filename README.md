@@ -1,12 +1,46 @@
-# React + Vite
+# 📋 ToDo — тестовое задание в стилях RoRe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это небольшое тестовое приложение для управления задачами, оформленное в минималистичном стиле **RoRe**. Реализован базовый функционал: добавление, удаление, редактирование и сортировка задач, а также перетаскивание через **Drag & Drop**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Используемые технологии
 
-## Expanding the ESLint configuration
+- ⚛️ **React** — библиотека для создания пользовательского интерфейса
+- 💨 **Tailwind CSS** — утилитарный CSS-фреймворк
+- 📝 **uuid** — генерация уникальных ID для задач
+- 🧲 **react-beautiful-dnd** — drag & drop взаимодействие
+- 📦 **localStorage** — хранение задач между сессиями
+- 🧠 **React Hooks** — управление состоянием и жизненным циклом
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Скриншот интерфейса
+
+![ToDo RoRe Screenshot](./screenshot.png)
+
+---
+
+## ⚙️ Установка и запуск проекта
+
+### 1. Клонировать репозиторий
+
+```bash
+git clone https://github.com/aleks509/TodoList-RoRe.git
+cd TodoList-RoRe
+
+```
+
+### 2. Не забудь установить зависимости
+
+```bash
+npm install
+
+```
+
+### 3. Запусти приложение
+
+```bash
+npm run dev
+
+```
