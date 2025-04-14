@@ -16,7 +16,6 @@ export default function Header() {
                   alt="RoRe логотип"
                 />
               </div>
-
               <div className="hidden md:flex">
                 <a
                   href="https://rore.group"
@@ -27,9 +26,8 @@ export default function Header() {
                   Родная Речь
                 </a>
               </div>
-
               <div className="-mr-2 flex md:hidden">
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-transparent p-2 text-gray-400 hover:bg-transparent hover:text-white">
                   <span className="sr-only">Открыть меню</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -40,6 +38,18 @@ export default function Header() {
               </div>
             </div>
           </div>
+          <Disclosure.Panel className="md:hidden">
+            <div className="px-2 pt-2 pb-3 space-y-1">
+              <a
+                href="https://rore.group"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-white text-lg font-semibold active:text-[#a78b5f] transition-colors duration-200"
+              >
+                Родная Речь
+              </a>
+            </div>
+          </Disclosure.Panel>
         </>
       )}
     </Disclosure>
